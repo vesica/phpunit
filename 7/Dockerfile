@@ -49,7 +49,7 @@ RUN sh /usr/local/ssh/install-composer.sh
 RUN mv composer.phar /usr/local/bin/composer
 
 # Install phpunit
-RUN wget -O phpunit https://phar.phpunit.de/phpunit-8.phar
+RUN wget -O phpunit https://phar.phpunit.de/phpunit-7.phar
 
 RUN chmod +x phpunit && mv phpunit /usr/bin/phpunit
 
